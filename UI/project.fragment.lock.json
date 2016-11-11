@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "exports": {
+    "Core/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/Core.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/Core.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Core.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/Infrastructure.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/Infrastructure.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Infrastructure.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}
